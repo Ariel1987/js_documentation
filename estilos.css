@@ -1,0 +1,39 @@
+body {
+  display: flex;
+}
+
+.main-doc {
+  padding-left: 350px;
+}
+
+.sidebar {
+  position: fixed;
+}
+
+.main-text {
+  border-left: solid;
+  padding-left: 50px;
+  padding-top: 25px;
+  margin-right: 50px;
+}
+
+.reference {
+  padding-bottom: 100px;
+}
+
+.code-box {
+  background-color:#f7f7f7;
+  padding-left: -500px;
+}
+
+.list-sidebar {
+  border-bottom: solid;
+  padding: 10px;
+  padding-right: 100px; 
+}
+
+.navbar-header {
+  border-bottom: solid;
+}
+
+ 
