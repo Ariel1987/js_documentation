@@ -36,4 +36,18 @@ body {
   border-bottom: solid;
 }
 
- 
+@media only screen and (max-width: 600px) {
+  body {
+    display:flex;
+    flex-direction: column;
+  }
+  .sidebar {
+    position: relative;
+  }
+  .main-doc {
+    padding: 0px;
+  }
+  .main-text {
+    border-left: none;
+  }
+}
